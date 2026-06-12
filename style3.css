@@ -1,0 +1,114 @@
+*{
+    margin: 0px;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    background-color: rgba(231, 11, 11, 0.885);
+    color: aliceblue;
+    align-items: center;
+   padding: 10px 20px;
+   
+}
+.name{
+     margin-left: 200px;
+}
+ul{
+    gap: 32px;
+    display: flex;
+    margin-left: 700px;
+}
+
+.name:hover{
+    background-color: blanchedalmond;
+    color: black;
+   
+}
+a{
+      gap: 32px;
+    color: aliceblue;
+    text-decoration: none;
+    
+   
+}
+a:hover{
+   
+   color: black;
+   height: 3px;
+    
+}
+/* about me css code */
+#aboutme{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 50px;
+        flex-direction: row;
+        margin-top: 100px;
+
+}
+#leftdiv{
+    border: 2px solid rgb(231, 13, 13);
+    box-shadow: 0px 0px  20px red;
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+     height: 500px;
+    width: 500px;
+    border-radius: 50%;
+
+}
+#profile{
+
+    border-radius: 100px;
+}
+h4:hover{
+    background-color: red;
+}
+#profile:hover{
+        background-color: red;
+}
+#rightdiv{
+   
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    height: 500px;
+    width: 500px;
+
+}
+span{
+    color: red;
+}
+body{
+    background-color: #eef5ff;
+}
+.read{
+    background-color: red;
+    align-items: left;
+    border-radius: 50px;
+    width: 100px;
+    height: 40px;
+}
+p{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.read:active{
+    background-color: white;
+}
+#hire{
+    background-color: red;
+    color: white;
+    border-radius: 50px;
+    width: 70px;
+    height: 20px;
+
+}
+#hire:hover{
+    background-color: white;
+    color: black;
+
+}

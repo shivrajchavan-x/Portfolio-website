@@ -1,0 +1,457 @@
+ * {
+     margin: 0;
+     scroll-behavior: smooth;
+ }
+
+ body {
+
+     background-color: rgb(247, 243, 243);
+ }
+
+ nav {
+     display: flex;
+     justify-content: space-between;
+     background-color: rgb(170 89 234);
+     color: aliceblue;
+     align-items: center;
+     padding: 10px 20px;
+
+     position: fixed;
+     width: 100%;
+
+ }
+
+ button {
+
+     background-color: rgb(170 89 234);
+     border-radius: 10px;
+ }
+
+ button:hover {
+     background-color: white;
+ }
+
+ ul {
+     gap: 32px;
+     display: flex;
+
+
+
+ }
+
+ .name:hover {
+     font-size: medium;
+     color: black;
+
+ }
+
+ a {
+     gap: 32px;
+     color: aliceblue;
+     text-decoration: none;
+ }
+
+ a:hover {
+     color: black;
+     height: 3px;
+ }
+
+ #hire {
+     background-color: rgb(170 89 234);
+     color: white;
+     border-radius: 50px;
+     width: 70px;
+     height: 20px;
+     margin-right: 40px;
+ }
+
+ #hire:hover {
+     background-color: white;
+     color: black;
+ }
+
+
+
+
+
+ #Home {
+     display: flex;
+
+     justify-content: center;
+     align-items: center;
+
+     min-height: 100vh;
+ }
+
+ #leftdiv {
+     height: 500PX;
+     width: 500PX;
+     margin: 50px;
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+     align-items: center;
+
+ }
+
+ #rightdiv {
+     border: 2px solid rgb(170 89 234);
+     height: 500PX;
+     width: 500PX;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     flex-direction: column;
+     border-radius: 50%;
+     color: rgb(170 89 234);
+
+     box-shadow: 0px 0px 20px rgb(170 89 234);
+ }
+
+ #profile {
+     border-radius: 100px;
+     margin-bottom: 5px;
+     height: 200px;
+     width: 200px;
+ }
+
+ #imgicon {
+     height: 36px;
+     width: 36px;
+     display: flex;
+     gap: 2px;
+     margin-bottom: 10px;
+     justify-content: center;
+ }
+
+ p {
+     justify-content: center;
+     padding: 5px;
+     text-align: left;
+ }
+
+ span {
+     color: rgb(170 89 234);
+ }
+
+ button {
+     background-color: blanchedalmond;
+     border-radius: 50px;
+     width: 100px;
+ }
+
+ h4 {
+     margin-bottom: 10px;
+ }
+
+ button:active {
+     background-color: aliceblue;
+ }
+
+
+
+ #aboutme {
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     gap: 50px;
+     flex-direction: row;
+     min-height: 100vh;
+
+ }
+
+ #leftdiv2page {
+     border: 2px solid rgb(170 89 234);
+     box-shadow: 0px 0px 20px rgb(170 89 234);
+     flex-direction: column;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     height: 500px;
+     width: 500px;
+     border-radius: 50%;
+ }
+
+ #profile {
+     border-radius: 100px;
+ }
+
+ h4:hover {
+     background-color: rgb(170 89 234);
+ }
+
+ #profile:hover {
+     background-color: rgb(170 89 234);
+ }
+
+ #rightdiv2page {
+
+     flex-direction: column;
+     justify-content: center;
+     align-items: center;
+     display: flex;
+     height: 500px;
+     width: 500px;
+ }
+
+ #me {
+     color: rgb(170 89 234);
+ }
+
+ body {
+     background-color: #eef5ff;
+ }
+
+ .read {
+     background-color: rgb(170 89 234);
+     align-items: left;
+     border-radius: 50px;
+     width: 100px;
+     height: 40px;
+ }
+
+ p {
+     margin-top: 10px;
+     margin-bottom: 10px;
+ }
+
+ .read:active {
+     background-color: white;
+ }
+
+
+
+
+
+
+ #contactme {
+     height: 100vh;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     flex-direction: column;
+     gap: 20px;
+
+ }
+
+ .contact {
+     border: 2px solid black;
+     display: flex;
+     align-items: center;
+     flex-direction: column;
+     gap: 20px;
+     height: 50%;
+     width: 400px;
+     padding: 10px 20px;
+     border-radius: 10px;
+
+ }
+
+ .contact:hover {
+     transform: scale(1.1);
+     box-shadow: opx opx 20px rgb(170 89 234);
+     transition: 2s;
+ }
+
+ .ltext {
+     display: flex;
+     flex-direction: column;
+     padding: 0px 20px;
+ }
+
+ input {
+     display: flex;
+     width: 400px;
+ }
+
+ textarea {
+     height: 50px;
+     width: 400px;
+     resize: none;
+ }
+
+ #submit:hover {
+     transform: scale(1.2);
+     transition: 2s;
+     background-color: rgb(170 89 234);
+     color: white;
+     text-align: bolder;
+ }
+
+
+
+
+ #menu{
+    display: none;
+ }
+ .hamburger{
+    display: none;
+    font-size: 30px;
+ }
+
+ @media(max-width: 480px) {
+     ul {
+         display: none;
+
+     }
+ 
+nav{
+    width: 100%;
+    height: 50px;
+    
+}
+ nav #hire {
+     display: none;
+ }
+ .hamburger{
+    display: block;
+    margin-right: 25px;
+
+ }
+.link{
+    display: none;
+    flex-direction: column;
+    position: absolute;
+    align-items: center;
+    top: 58px;
+    left: 0;
+    width: 100%;background-color: rgba(236, 9, 236, 0.412);
+    padding: 20px;
+}
+.link li a{
+    display: flex;
+    align-items: center;
+    lefft: 0;
+    padding: 3px;
+
+}
+#menu:checked~.link{
+    display: flex;
+}
+ #Home {
+     flex-direction: column-reverse;
+     gap: 90px;
+     display: flex;
+     justify-content: center;
+  align-items: center;
+    min-height: 100vh;
+   
+     
+ }
+
+ #Home #rightdiv {
+
+     height: 150px;
+     width: 150px;
+    
+ }
+
+ #rightdiv #profile {
+     height: 70px;
+     width: 70px;
+
+ }
+
+ #Home #leftdiv {
+     height: 250px;
+     width: 250px;
+     text-align: center;
+     
+
+ }
+
+ #Home #leftdiv h1 {
+     font-size: 25px;
+ }
+ #Home #leftdiv p{
+    display: flex;
+    text-align: justify;
+    justify-content: center;
+    align-items: center;
+ }
+
+#aboutme{
+    display: flex;
+    flex-direction: column;
+    gap: 090px;
+    height: 100vh;
+}
+#aboutme #leftdiv2page{
+    height: 150px;
+    width: 150px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  align-items: center;
+}
+#aboutme #leftdiv2page #profile{
+    height: 70px;
+    width: 70px;
+}
+#aboutme #rightdiv2page{
+    height: 250px;
+    width: 250px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+#aboutme #rightdiv2page p{
+  text-align: justify;
+}
+
+#contactme .contact{
+    height: 400px;
+    width: 280px;
+     display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 0px;
+   
+}
+#contactme .contact input, textarea{
+    width: 250px;
+   
+}
+
+}
+
+@media(max-width: 1024px){
+    #home
+    {
+        height: 100vh;
+    }
+    #Home #rightdiv{
+        height: 350px;
+        width: 350px;
+        margin-right: 20px;
+
+    }
+    #Home #leftdiv{
+        height: 350px;
+        width: 350px;
+        
+    }
+    #Home #leftdiv p{
+        text-align: justify;
+    }
+
+    #abouutme{
+        height: 100vh;
+
+    }
+    #aboutme #leftdiv2page{
+        height: 350px;
+        width: 350px;
+
+    }
+    #aboutme #rightdiv2page{
+        height: 350px;
+        width: 350px;
+        gap: 15px;
+    }
+    #aboutme #rightdiv2page p{
+        text-align: justify;
+    }
+
+}
